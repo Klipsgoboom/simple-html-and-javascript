@@ -1,0 +1,42 @@
+<html>
+<script>
+var number = 0; //this is a variable that will be changed and set to the random number generated
+
+function getnum(max) {
+return Math.floor(Math.random() * max);
+}
+
+function alertt() {
+
+number = getnum(7);
+if (number == 6) {
+alert('6')
+return;
+}
+if (number == 5) {
+alert('5')
+return;
+}
+if (number == 4) {
+alert('hello!')
+return;
+}
+if (number == 3) {
+alert('hi')
+return;
+}
+if (number == 2) {
+alert('bye')
+return;
+}
+if (number == 1) {
+alert('sigh')
+return;
+}
+}
+</script>
+<body>
+<p1> Hello! Welcome to the site! </p1>
+<button onclick="alertt()"> click to begin </button>
+</body>
+</html>
